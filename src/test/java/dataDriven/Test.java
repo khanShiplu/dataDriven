@@ -9,6 +9,7 @@ public class Test {
 		WebDriver  driver = new FirefoxDriver();
 		driver.get("http://www.google.com");
 		driver.manage().window().maximize();
+		System.out.println("This is Add line for github learning");
 
 	}
 
